@@ -119,6 +119,8 @@ Add Get to your pubspec.yaml file:
 ```yaml
 dependencies:
   get:
+    git:
+      url: https://github.com/ctkqiang/get.git
 ```
 
 Import get in files that it will be used:
